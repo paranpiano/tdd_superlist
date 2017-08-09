@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d688328d-e0f4-415a-875c-ae9a7b74e876" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lists/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/tests.py" afterPath="$PROJECT_DIR$/lists/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/views.py" afterPath="$PROJECT_DIR$/lists/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superlists/settings.py" afterPath="$PROJECT_DIR$/superlists/settings.py" />
     </list>
     <ignored path="superlists.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +52,8 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -438,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502255197423</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring">
+      <created>1502256090386</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1502256090386</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -512,7 +516,8 @@
     <MESSAGE value="First unit test and url mapping, dummy view" />
     <MESSAGE value="Basic view now returns minimal HTML" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -618,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
