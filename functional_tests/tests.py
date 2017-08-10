@@ -2,6 +2,7 @@ from django.test import LiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+
 class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
@@ -41,6 +42,9 @@ class NewVisitorTest(LiveServerTestCase):
         # and now the page lists "1: Buy peacock feathers" as an item in a
         # to-do list table
         inputbox.send_keys(Keys.ENTER)
+
+        import time
+        time.sleep(1)
         edith_list_url = self.browser.current_url
         self.assertRegex(edith_list_url, '/lists/.+')  # 1
         self.check_for_row_in_list_table('1: Buy peacock feathers')
@@ -48,7 +52,7 @@ class NewVisitorTest(LiveServerTestCase):
         # There is still a text box inviting her to add another item. She
 
         import time
-        time.sleep(10)
+        time.sleep(1)
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
 
@@ -85,6 +89,9 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
+
+        import time
+        time.sleep(1)
 
         # Francis gets his own unique URL
         francis_list_url = self.browser.current_url
